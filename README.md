@@ -44,6 +44,17 @@ plt.title("Big Mac Price Progression in the United States")
 plt.grid(True)
 plt.show()
 ```
+```python
+plt.figure(figsize=(12, 8))
+sns.heatmap(heatmap_data, cmap="coolwarm", annot=True, fmt=".2f", linewidths=0.5)
+plt.title("Big Mac Prices Over Time by Country (USD)")
+plt.xlabel("Year")
+plt.ylabel("Country")
+plt.xticks(rotation=45)
+plt.yticks(rotation=0)
+plt.show()
+```
+
 
 ## How to Reproduce
 ### Requirements
