@@ -27,10 +27,12 @@ The dataset contains the following columns:
 ✔ Rounded the values to two decimal places.  
 
 ### 3️⃣ Data Visualization
-✔ Created a line chart to visualize the progression of Big Mac prices over the years in the United States.  
+✔ Created a line chart to visualize the progression of Big Mac prices over the years in the United States. 
+✔ Create a heat map to visualize pricing evolution in Europe 
 
 ## 📈 Visualization
 A line chart was generated to show how Big Mac prices have changed over time in the U.S.
+A heatmap was generated to illustrate how Big Mac prices have changed over time in different EU countries. The color intensity indicates variations in the dollar price across years.
 
 ```python
 import matplotlib.pyplot as plt
@@ -48,14 +50,18 @@ plt.show()
 - Python 3.x
 - Pandas
 - Matplotlib
+- Seaborn
 
 ### 📝 Steps
 1. Load the dataset into a Pandas DataFrame.
 2. Perform the preprocessing steps outlined above.
-3. Use Matplotlib to generate the line chart.
+3. Use Matplotlib to generate the line chart and heat map.
 
 ## 📢 Conclusion
-This analysis provides insight into the historical price trends of Big Macs in the U.S., highlighting inflation through the price of a hamburger.
+This analysis provides insight into the historical price trends of Big Macs in the U.S. and Europe, highlighting inflation through the price of a hamburger.
+
+# Future Plans
+Use these new data sets to create more visuals using Tableau
 
 ---
-### 🖋 Author: Your Name
+### 🖋 Author: Kyle Jones
