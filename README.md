@@ -45,19 +45,19 @@ plt.grid(True)
 plt.show()
 ```
 
-## 🚀 How to Reproduce
-### 🔧 Requirements
+## How to Reproduce
+### Requirements
 - Python 3.x
 - Pandas
 - Matplotlib
 - Seaborn
 
-### 📝 Steps
+### Steps
 1. Load the dataset into a Pandas DataFrame.
 2. Perform the preprocessing steps outlined above.
 3. Use Matplotlib to generate the line chart and heat map.
 
-## 📢 Conclusion
+## Conclusion
 This analysis provides insight into the historical price trends of Big Macs in the U.S. and Europe, highlighting inflation through the price of a hamburger.
 
 ## Future Plans
