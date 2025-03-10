@@ -1,7 +1,5 @@
 # Big Mac Price Analysis (United States)
 
-![Big Mac Index](https://upload.wikimedia.org/wikipedia/commons/6/6b/Big_Mac_Index.png)
-
 ## 📌 Overview
 This project analyzes the historical Big Mac prices in the United States using a dataset containing global Big Mac prices. The goal is to track the price progression over the years and visualize the trend.
 
