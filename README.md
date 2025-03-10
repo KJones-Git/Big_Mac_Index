@@ -76,5 +76,8 @@ Use these new data sets to create more visuals using Tableau
 
 ---
 ### 🖋 Author: Kyle Jones
-### 📝 GitHub: https://github.com/KJones-Git
-### 📊 Tableau: https://public.tableau.com/app/profile/kyle.jones8049/vizzes
+|Website     |  Handle   | 
+|---------|-----------------|
+|Github| https://github.com/KJones-Git        |
+|Tableau |   https://public.tableau.com/app/profile/kyle.jones8049/vizzes      |
+|LinkedIn |  https://www.linkedin.com/in/kylelaurencejones/      |
