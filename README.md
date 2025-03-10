@@ -60,7 +60,7 @@ plt.show()
 ## 📢 Conclusion
 This analysis provides insight into the historical price trends of Big Macs in the U.S. and Europe, highlighting inflation through the price of a hamburger.
 
-# Future Plans
+## Future Plans
 Use these new data sets to create more visuals using Tableau
 
 ---
