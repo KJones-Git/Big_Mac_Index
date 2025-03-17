@@ -1,59 +1,58 @@
-# Big Mac Price Analysis (United States)
+# Big Mac Price Analysis
 
-## 📌 Overview
-This project analyzes the historical Big Mac prices in the United States using a dataset containing global Big Mac prices. The goal is to track the price progression over the years and visualize the trend.
+## 📌 Project Overview  
+This project analyzes the **historical Big Mac prices** in the **United States and Europe**, using a dataset containing global Big Mac prices. The goal is to **track the price progression over the years** and compare it against **inflation trends**.
 
-## 📊 Dataset
-The dataset contains the following columns:
-- **`date`**: Date of Big Mac price recording.
-- **`currency_code`**: Three-letter currency code.
-- **`country`**: Name of the country.
-- **`local_price`**: Price of a Big Mac in local currency.
-- **`dollar_ex`**: Exchange rate to USD.
-- **`dollar_price`**: Price of a Big Mac in USD.
+Additionally, this analysis evaluates the **Big Mac Index (BMI)**—a well-known economic indicator used to measure **purchasing power parity (PPP)**—to determine whether it remains a **reliable metric for tracking inflation** in today’s economy.
 
 ## 🛠 Steps Taken
 
-### 1️⃣ Data Preprocessing
-✔ Renamed the `name` column to `country`.  
-✔ Filtered the dataset to include only records for the United States.  
-✔ Extracted the `year` from the `date` column.  
-✔ Removed unnecessary columns: `date`, `currency_code`, `dollar_ex`, and `dollar_price`.  
-✔ Reset the index and rearranged columns to place `year` first.  
+1. **Data Import & Integration**  
+   - Imported **three different datasets**:  
+     - **Big Mac prices** dataset  
+     - **Inflation rates** dataset  
+     - **Beef prices** dataset  
+   - Formatted and cleaned each dataset to ensure consistency.  
+   - Merged all three datasets into **one central dataset** for analysis.  
 
-### 2️⃣ Handling Duplicate Years
-✔ Identified duplicate years where multiple Big Mac prices existed.  
-✔ Averaged the `local_price` for duplicate years.  
-✔ Rounded the values to two decimal places.  
+2. **Data Preprocessing**  
+   - Checked for missing values and corrected inconsistencies.  
+   - Standardized column names and data types.  
+   - Ensured the datasets aligned properly by year for accurate comparisons.  
 
-### 3️⃣ Data Visualization
-✔ Created a line chart to visualize the progression of Big Mac prices over the years in the United States. 
-✔ Create a heat map to visualize pricing evolution in Europe 
+3. **Exploratory Data Analysis (EDA)**  
+   - Visualized historical **Big Mac prices, inflation rates, and beef prices** over time.  
+   - Analyzed trends and relationships between inflation and food prices.  
+   - Identified any deviations between price trends and economic inflation.  
 
-## 📈 Visualization
-A line chart was generated to show how Big Mac prices have changed over time in the U.S.
+4. **Big Mac Index Evaluation**  
+   - Calculated the **annual percent increase** in Big Mac prices.  
+   - Compared these trends with official inflation rates.  
+   - Assessed whether the **Big Mac Index (BMI)** remains a reliable economic indicator.  
+
+5. **Findings & Conclusions**
+   - The **Big Mac Index (BMI) was a reliable indicator** of inflation before **2005**, closely following general inflation trends.
+   - After **2005**, the **Big Mac Index became less accurate**, as both **Big Mac prices and beef prices** began rising **more sharply than inflation**.
+   - This suggests that **factors beyond general inflation**, such as **rising labor costs, supply chain disruptions, and commodity price volatility**, have increasingly influenced Big Mac pricing.
+   - As a result, the **Big Mac Index may no longer be a strong standalone economic indicator** for inflation tracking, though it still provides insight into purchasing power differences globally.  
+
+
+
+## 📈 Visualizations
+
+**Big Mac Index**
+
+This chart visualizes the trends in **Big Mac prices, beef prices, and inflation rates** over time.  
+It highlights how **Big Mac and beef prices began rising more sharply than inflation after 2005**, making the **Big Mac Index less reliable as an inflation indicator**.
+
+
+![image_alt](https://github.com/KJones-Git/Big_Mac_Index/blob/72e614d0761103771bc1344bb8b398d536dadf1e/big_mac_chart.png)
+
+**EU Big Mac Prices**
+
 A heatmap was generated to illustrate how Big Mac prices have changed over time in different EU countries. The color intensity indicates variations in the dollar price across years.
 
-```python
-import matplotlib.pyplot as plt
-plt.figure(figsize=(10, 5))
-plt.plot(df_us_avg["year"], df_us_avg["local_price"], marker="o", linestyle="-", color="b")
-plt.xlabel("Year")
-plt.ylabel("Average Big Mac Price (USD)")
-plt.title("Big Mac Price Progression in the United States")
-plt.grid(True)
-plt.show()
-```
-```python
-plt.figure(figsize=(12, 8))
-sns.heatmap(heatmap_data, cmap="coolwarm", annot=True, fmt=".2f", linewidths=0.5)
-plt.title("Big Mac Prices Over Time by Country (USD)")
-plt.xlabel("Year")
-plt.ylabel("Country")
-plt.xticks(rotation=45)
-plt.yticks(rotation=0)
-plt.show()
-```
+![image_alt](https://github.com/KJones-Git/Big_Mac_Index/blob/b4914afa85b569991d506e14efdae14bfa0bfd9b/EU_heatmap.png)
 
 
 ## How to Reproduce
