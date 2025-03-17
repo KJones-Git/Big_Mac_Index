@@ -68,10 +68,14 @@ A heatmap was generated to illustrate how Big Mac prices have changed over time 
 3. Use Matplotlib to generate the line chart and heat map.
 
 ## Conclusion
-This analysis provides insight into the historical price trends of Big Macs in the U.S. and Europe, highlighting inflation through the price of a hamburger.
+
+The analysis reveals that while the **Big Mac Index (BMI)** was a reliable economic indicator before **2005**, it has since diverged from inflation trends. **Big Mac prices and beef prices have risen more sharply than general inflation**, suggesting that other external factors such as **rising beef prices** have increasingly influenced pricing beyond simply inflation.
+
+As a result, the **BMI may no longer be a strong standalone measure of inflation**, though it still provides insights into **purchasing power and economic trends** across different regions. This study underscores the importance of considering multiple economic factors when analyzing inflation and cost-of-living changes.
+
 
 ## Future Plans
-Use these new data sets to create more visuals using Tableau
+Use these data sets to create more complex visuals in Tableau.
 
 ---
 ### 🖋 Author: Kyle Jones
