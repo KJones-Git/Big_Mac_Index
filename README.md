@@ -1,7 +1,7 @@
 # Big Mac Price Analysis
 
 ## 📌 Project Overview  
-This project analyzes the **historical Big Mac prices** in the **United States and Europe**, using a dataset containing global Big Mac prices. The goal is to **track the price progression over the years** and compare it against **inflation trends**.
+This project analyzes **historical Big Mac prices** in the **United States and Europe**, using a dataset containing global Big Mac prices cross references with data sets following inflation and the price of beef. The goal is to **track the price progression over the years** and compare it against **inflation trends**.
 
 Additionally, this analysis evaluates the **Big Mac Index (BMI)**—a well-known economic indicator used to measure **purchasing power parity (PPP)**—to determine whether it remains a **reliable metric for tracking inflation** in today’s economy.
 
