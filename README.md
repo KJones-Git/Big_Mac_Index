@@ -1,11 +1,18 @@
-# Big Mac Price Analysis
 
-## 📌 Project Overview  
+<div align="center">
+  <h1> Big Mac Price Analysis</h1>
+</div>
+
+<div align="center">
+  <img src="https://github.com/KJones-Git/Big_Mac_Index/blob/bb926b441d2b031144a2a070f3a57b265884b282/big_mac_index_pic.jpg?raw=true" alt="Big Mac Index" width="750"/>
+</div>
+
+## Project Overview  
 This project analyzes **historical Big Mac prices** in the **United States and Europe**, using a dataset containing global Big Mac prices cross references with data sets following inflation and the price of beef. The goal is to **track the price progression over the years** and compare it against **inflation trends**.
 
 Additionally, this analysis evaluates the **Big Mac Index (BMI)**—a well-known economic indicator used to measure **purchasing power parity (PPP)**—to determine whether it remains a **reliable metric for tracking inflation** in today’s economy.
 
-## 🛠 Steps Taken
+## Steps Taken
 
 1. **Data Import & Integration**  
    - Imported **three different datasets**:  
@@ -38,7 +45,7 @@ Additionally, this analysis evaluates the **Big Mac Index (BMI)**—a well-known
 
 
 
-## 📈 Visualizations
+## Visualizations
 
 **Big Mac Index**
 
